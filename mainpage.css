@@ -1,0 +1,141 @@
+*{
+margin:0px;
+padding: 0px;
+
+}
+.outbox{
+    border:solid 1px;
+    height:120px;
+    display: flex;
+}
+#box1,#box2{
+    border:solid 1px;
+    height:120px;
+
+}
+#box2{
+    width: 1200px;
+    background-color:#933953;
+    text-align: center;
+}
+#box1{
+    width: 300px;
+}
+#clgname{
+    color:#ffffff;
+    font-size: 50px;
+    font-family: "Calligraffitti", cursive;
+    }
+    #text1{
+        font-size: 15px;
+        color:#ffffff
+    }
+    #text2{
+        font-size: 18px;
+        color:#ffffff
+    }
+    #scrolltext{
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    .navigation{
+        border: solid 1px;
+        height:55px;
+    }
+    ul li{
+        border: solid 1px;
+        height: 55px;
+        float:left;
+        width:140px;
+        text-align: center;
+        line-height:55px;
+        background-color: #7993e6;
+        position: relative;
+        margin-bottom: 1px;
+        margin-right: 1px;
+        border-radius: 5px;
+    }
+    ul{
+        list-style:none;
+    }
+    ul li a{
+        color:black;
+        font-size:18px;
+        text-decoration: none;
+    }
+    ul ul{
+        position: absolute;
+        display: none;
+    }
+    ul li:hover>ul{
+        display:block;
+    }
+    ul li ul li{
+        width:250px;
+        background-color: #ebd4b6
+    }
+    ul li ul li ul li{
+        width:350px;
+        margin-left:248px;
+        background-color: #ebd4b6
+    }
+    ul ul ul{
+        top:0px;
+    }
+    ul li:hover{
+        background-color: #ffffff;
+    }
+    ul li ul li:hover{
+        background-color: aqua;
+    }
+    .arrow{
+        color:#933953;
+        font-size: 20px;
+    }
+    .abox{
+        border: solid 1px;
+        height:400px;
+        display:flex ;
+        justify-content: space-between;
+    }
+    #in1,#in2,#in3{
+        border:solid 1px;
+        height:400px;
+    }
+    #in1{
+        width:700px;
+        background-image: url(vgnt1.jpg);
+        background-repeat: no-repeat;
+        background-size:700px 400px ;
+        animation-name: imageschanging;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes imageschanging{
+        10%{
+            background-image: url(vgnt.jpg);
+        }
+        20%{
+            background-image: url(vgnt1.jpg);
+        }
+        30%{
+            background-image: url(vgnt2.jpg);
+        }
+        40%{
+            background-image: url(vgnt3.jpg);
+        }
+       
+
+    }
+    #in2,#in3{
+        width:300px;
+    }
+    .out{
+        border:solid 1px;
+        height:150px;
+        background-color: rgb(3, 3, 24);
+    }
+   #logo{
+    padding-right: 110px;
+   }
